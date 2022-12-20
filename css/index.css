@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Roboto;
+    src: url("static/fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("static/fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#sidebar {
+    position: relative;
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+    width: 240px!important;
+}
+h1 {
+    color: #052C65!important;
+}
+.visually-hidden {
+    position: relative;
+}
+.input-group-text {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+}
+
+input {
+    padding-left: 50px!important;
+}
+.input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+form {
+    max-width: 397px!important;
+}
+
+.profile {
+    width: 36px;
+    height: 36px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.income {
+    padding: 100px 60px;
+
+}
+
+.input-create-element {
+    padding: 7px 16px!important;
+    width: 397px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+#content {
+    width: 100%;
+
+}
+.btn-primary {
+    margin-right: 10px;
+}
+
+.btn-outline-secondary {
+    width: 100px;
+    box-sizing: border-box;
+}
+.action-interval {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-interval button:hover {
+    color: white!important;
+}
+.active-button-interval {
+    color: white!important;
+    background-color: #6C757D!important;
+}
+.action-interval-button .btn-success {
+    margin-right: 10px;
+
+}
+.action-interval-button button {
+
+    width: unset;
+}
+.interval input {
+    width: 100px;
+    padding: 0!important;
+    border: none;
+    outline: none;
+}
+.interval span {
+    padding-right: 15px;
+}
+.interval input::placeholder {
+    text-decoration: underline;
+}
+.interval-data {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+.interval {
+    margin-left: 20px;
+}
+table {
+    width: 100%;
+}
+table td {
+    text-align: center;
+}
+table .comment {
+    text-align: right;
+}
+
+table thead {
+    border-top: 1px solid #DEE2E6;
+    padding: 15px;
+    font-family: "Museo Sans Cyrl 500", sans-serif;
+    font-weight: 700;
+    color: #052C65;
+}
+table thead td {
+    padding: 15px;
+}
+table tbody td {
+    text-align: center;
+    padding: 15px;
+}
+
+table tbody tr {
+    border-top: 1px solid #DEE2E6;
+}
+table tbody tr td:nth-child(1) {
+    font-weight: 700;
+}
+#form .input {
+    padding: 7px 16px!important;
+    margin-bottom: 10px;
+    width: 397px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    outline: none;
+}
+.placeholder-red::placeholder {
+    color: red;
+}
+
+.deleted {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.redaction-element {
+    cursor: pointer;
+}
+.nav-link {
+    padding: 11px!important;
+    font-size: 14px!important;
+}
+
+
+.dropdown-nav-link {
+    padding: 11px!important;
+}
+.dropdown-nav-link a {
+    font-size: 14px!important;
+    border: none;
+    color: #052C65;
+}
+
+
+.dropdown-menu {
+    border: none!important;
+}
+.dropdown-item {
+    padding: 11px!important;
+}
+#balance {
+    color: #0D6EFD!important;
+    font-weight: 500;
+}
+#user {
+    font-weight: 400;
+}
+.balance {
+    font-weight: 700;
+}
+.pie {
+    width: 360px;
+
+}
+.charts {
+    max-width: 984px;
+}
+.line {
+    width: 1px;
+
+    background-color: #D9D9D9;
+}
+
+.active-button-menu {
+    background-color: #0D6EFD!important;
+    border-radius: 5px!important;
+    color: white!important;
+}
+.active-button-menu svg path {
+    fill: white;
+}
+.active-button-menu a {
+    color: white;
+}
+.menu-category {
+    inset: 10px 5px auto -10px!important;
+    --bs-dropdown-padding-y: none!important;
+}
+.menu-category li a {
+    color: #0D6EFD!important;
+    border-radius: 5px;
+}
+
+.menu-category ul {
+    border-bottom: 1px solid #0D6EFD;
+    border-left: 1px solid #0D6EFD;
+    border-right: 1px solid #0D6EFD;
+    border-radius: 5px;
+}
+.menu-category li a:hover {
+    background-color: #0D6EFD!important;
+    color: white!important;
+}
+.menu-item {
+    color: #052C65!important;
+}
+
+
+#user {
+    color: #052C65;
+}
+#delete {
+    width: 115px;
+}
+#no-delete {
+    width: 115px;
+}
+.modal-title {
+    color: #290661;
+}
+.income-item {
+    color: #290661
+}
+
+
+

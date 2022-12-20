@@ -1,0 +1,40 @@
+<div class="income">
+    <h1 class="mb-5" id="title-home"></h1>
+    <div class="interval-data">
+        <div class="action-interval">
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-today">Сегодня</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-week">Неделя</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-month">Месяц</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-year">Год</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-all">Все</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-interval">Интервал</button>
+        </div>
+        <div class="interval">
+            <label>
+                <span>c</span>
+                <input class="input-interval" type="date" placeholder="Дата" id="dateFrom">
+            </label>
+            <label>
+                <span>по</span>
+                <input class="input-interval" type="date" placeholder="Дата" id="dateTo">
+            </label>
+        </div>
+    </div>
+    <div class="charts d-flex justify-content-between align-item-center">
+        <div class="pie">
+            <h3 class="text-center">Доходы</h3>
+            <div id="canvas-income">
+                <canvas id="incomeChart"></canvas>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="pie">
+            <h3 class="text-center">Расходы</h3>
+            <div id="canvas-expense">
+                <canvas id="expenseChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+</div>

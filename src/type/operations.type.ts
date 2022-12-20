@@ -1,0 +1,9 @@
+export type OperationsType = {
+    id: number,
+    type: string,
+    amount: number,
+    date: string,
+    comment: string,
+    category: string,
+    forEach(param: (i: any) => void): void;
+}

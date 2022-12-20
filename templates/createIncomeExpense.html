@@ -1,0 +1,31 @@
+<div class="income">
+    <h1 class="mb-5" id="title-create"></h1>
+    <form id="form" class="mb-4">
+        <label>
+            <select class="input" name="type" id="type">
+                <option value="" disabled selected>Тип...</option>
+                <option value="1">Доход</option>
+                <option value="2">Расход</option>
+            </select>
+        </label>
+        <label id="input-category">
+                <select class="input" name="category" id="select">
+                    <option value="" disabled selected>Категория...</option>
+                </select>
+        </label>
+        <label>
+            <input class="input" type="number" name="sum" placeholder="Сумма в $...">
+        </label>
+        <label>
+            <input class="input" type="date" name="date" placeholder="Дата...">
+        </label>
+        <label>
+            <input class="input" type="text" name="comment" placeholder="Комментарий...">
+        </label>
+        <div class="action">
+            <button type="button" class="btn btn-success" id="create">Создать</button>
+            <button type="button" class="btn btn-danger" id="cancel">Отмена</button>
+        </div>
+    </form>
+
+</div>

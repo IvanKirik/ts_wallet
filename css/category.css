@@ -1,0 +1,24 @@
+.income-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+.income-item {
+    padding: 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 12px;
+    width: 352px;
+    box-sizing: border-box;
+}
+.income-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 129px;
+    cursor: pointer;
+    order: 100;
+}
+.btn-primary {
+    margin-right: 10px;
+}

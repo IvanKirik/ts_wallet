@@ -1,0 +1,44 @@
+<div class="income">
+    <h1 class="mb-5" id="title-expense-income"></h1>
+    <div class="action-interval-button mb-5">
+        <button class="btn btn-success text-white" id="create-income">Создать доход</button>
+        <button class="btn btn-danger text-white" id="create-expense">Создать расход</button>
+    </div>
+    <div class="interval-data">
+        <div class="action-interval">
+            <button class="btn btn-outline-secondary text-secondary b-int " id="btn-today">Сегодня</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-week">Неделя</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-month">Месяц</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-year">Год</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-all">Все</button>
+            <button class="btn btn-outline-secondary text-secondary b-int" id="btn-interval">Интервал</button>
+        </div>
+        <div class="interval">
+            <span>c</span>
+            <label>
+
+                <input class="input-interval" type="date" id="dateFrom">
+            </label>
+            <span>по</span>
+            <label>
+                <input class="input-interval" type="date" id="dateTo">
+            </label>
+        </div>
+    </div>
+    <table id="table">
+        <thead>
+        <tr>
+            <td>№ операции</td>
+            <td>Тип</td>
+            <td>Категория</td>
+            <td>Сумма</td>
+            <td>Дата</td>
+            <td colspan="2">Комментарий</td>
+        </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+
+</div>
